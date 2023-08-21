@@ -83,7 +83,7 @@
     <section id="sixth">
         <div class="faq"><h1>FAQ</h1></div>
         <div id="box">
-            <button class="accordion">h2What is Shopify and how does it work?</button>
+            <button class="accordion">What is Shopify and how does it work?</button>
             <p class="text">Shopify is a complete commerce platform that lets you start, grow, and manage a business.
 
                 With Shopify, you can:
@@ -122,6 +122,23 @@
                 Expert Marketplace to search for and hire a certified Shopify expert.</p>
         </div>
     </section>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var text = this.nextElementSibling;
+            if (text.style.maxHeight) {
+              text.style.maxHeight = null;
+            } else {
+              text.style.maxHeight = text.scrollHeight + "px";
+            } 
+          });
+        }
+        </script>
 
 </body>
 </html>

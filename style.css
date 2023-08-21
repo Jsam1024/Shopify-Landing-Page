@@ -216,8 +216,38 @@ body{
     font-size: 42px;
 }
 #box{
-    width: 800px;
+    width: 920px;
     margin: 0 auto;
     margin-top: 70px;
-    padding: 20px 60px;
+    padding: 20px 70px;
 }
+.accordion {
+    background-color: transparent;
+    cursor: pointer;
+    padding: 7px 0px;
+    width: 100%;
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .accordion:after {
+    content: '\002B';
+    color: #000;
+    background-color: white;
+    padding: 0px 6px;
+    border-radius: 15px;
+    transform: scale(1.2);
+    float: right;
+    margin-right: 10px; 
+  }
+  .active:after {
+    content: "\2212";
+    color: #fff;
+    background-color: black;
+  }
+  .text {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+  
