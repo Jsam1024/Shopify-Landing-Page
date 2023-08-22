@@ -22,16 +22,16 @@ body{
     text-align: center;
 }
 #first img{
-    width: 150px;
+    width: 170px;
     margin-bottom: 25px;
 }
 #first h1{
     width: 700px;
-    font-size: 50px;
+    font-size: 52px;
     margin-bottom: 25px;
 }
 .large{
-    font-size: 17px;
+    font-size: 19px;
     line-height: 25px;
     margin-bottom: 25px;
 }
@@ -219,8 +219,10 @@ body{
     width: 920px;
     margin: 0 auto;
     margin-top: 70px;
-    padding: 20px 70px;
+    padding: 0px 70px;
 }
+
+/*accordion*/
 .accordion {
     background-color: transparent;
     cursor: pointer;
@@ -246,8 +248,39 @@ body{
     background-color: black;
   }
   .text {
-    max-height: 0;
+    
     overflow: hidden;
     transition: max-height 0.3s ease-out;
+  }
+
+  #box p{
+    width: 720px;
+    padding-top: 10px;
+    line-height: 25px;
+  }
+  #box hr{
+    margin: 40px 0px;
+    width: 800px;
+  }
+
+  #sitemap {
+    margin: 100px auto;
+    border: 1px solid black;
+  }
+  #sitemap ul{
+    text-align: right;
+    display: flex;
+    justify-content: right;
+  }
+  #sitemap ul li{
+    list-style-type: none;
+    margin-right: 60px;
+  }
+  #sitemap ul li a{
+    color: #000;
+    font-weight: bold;
+  }
+  #sitemap ul li a:hover{
+    text-decoration: none;
   }
   
