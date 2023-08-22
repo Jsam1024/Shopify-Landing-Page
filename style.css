@@ -248,7 +248,7 @@ body{
     background-color: black;
   }
   .text {
-    
+    max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-out;
   }
@@ -283,4 +283,162 @@ body{
   #sitemap ul li a:hover{
     text-decoration: none;
   }
-  
+  .ssshop{
+    display: none;
+  }
+
+  /*MEDIA QUERY*/
+
+  @media only screen and (max-width:600px){
+    div{
+        border: 1px solid black;
+    }
+    .logo{
+        display: none;
+    }
+    #first{
+        width: 390px;
+        padding: 0px;
+        margin: 0 auto;
+        text-align: center;
+        border: 1px solid #fff;
+    }
+    #first .ssshop{
+        display: initial;
+        width: 130px;
+        margin: 0px;
+        margin-top: 5px;
+    }
+    #first h1{
+        font-size: 36px;
+        width: 390px;
+        margin: 25px 0px;
+    }
+    .large{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    #div{
+        width: 350px;
+        padding: 5px;
+        border-radius: 26px;
+        margin-bottom: 30px;
+    }
+    #div .email{
+        width: 250px;
+    }
+    .small{
+        width: 390px;
+    }
+
+    #second{
+        width: 390px;
+    }
+    #second img{
+        width: 300px;
+    }
+
+    #third{
+        display: block;
+        width: 390px;
+    }
+    #third div{
+        width: 390px;
+        padding: 0px;
+        margin-top: 35px;
+    }
+    #third div h2{
+        font-size: 20px;
+    }
+    #third div p{
+        font-size: 13px;
+    }
+    #akoko{
+        width: 390px;
+        margin: 35px auto;
+    }
+
+    #images{
+        width: 390px;
+    }
+    #images img{
+        padding: 0px;
+        width: 50%;
+    }
+    #ekeji{
+        width: 390px;
+        margin: 0px auto;
+        margin-bottom: 35px;
+    }
+
+    #forth{
+        width: 390px;
+    }
+    #forth h1{
+        font-size: 36px;
+    }
+    #forth p{
+        font-size: 14px;
+    }
+
+    #build{
+        width: 390px;
+        padding: 0px;
+    }
+    #build h1{
+        font-size: 36px;
+    }
+    #build h4{
+        font-size: 14px;
+    }
+    #vid{
+        width: 350px;
+        padding: 5px;
+        border-radius: 26px;
+        margin-bottom: 30px;
+    }
+    #vid .email{
+        width: 250px;
+    }
+    #build p{
+        font-size: 11px;
+    }
+
+    .faq{
+        width: 390px;
+        padding: 0px;
+    }
+    .faq h1{
+        font-size: 36px;
+    }
+
+    /*accordion*/
+    #box{
+        width: 380px;
+        padding: 0px;
+    }
+    .accordion{
+        font-size: 20px;
+    }
+    .accordion:after{
+        margin: 0px;
+    }
+    #box p{
+        width: 380px;
+    }
+    #box hr{
+        width: 390px;
+        margin: 35px 0px;
+    }
+
+    #sitemap{
+        width: 400px;
+    }
+    #sitemap ul li{
+        margin-right: 12px;
+    }
+    #sitemap ul li a{
+        font-size: 14px;
+    }
+
+  }
