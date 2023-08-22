@@ -10,7 +10,6 @@ body{
 #container{
     width: 100%;
     height: 450px;
-    border: 1px solid black;
     background-color: #fff;
     background-image: linear-gradient(to right, rgba(181, 245, 255, 0.7) 40%, rgb(255, 255, 255) 50%, rgba(153, 240, 91, 0.5) 90%);
 }
@@ -19,7 +18,6 @@ body{
     height: 450px;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid black;
     text-align: center;
 }
 #first img{
@@ -59,6 +57,7 @@ body{
 }
 #div .submit{
     color: #fff;
+    font-weight: bold;
     background-color: black;
     padding: 8px;
     border: 1px solid black;
@@ -68,7 +67,6 @@ body{
 
 #second{
     margin: 0 auto;
-    border: 1px solid black;
     width: 400px;
     text-align: center;
     padding: 20px;
@@ -78,13 +76,9 @@ body{
 }
 
 #third{
-    border: 1px solid black;
     display: flex;
     width: 1100px;
     margin: 0 auto;
-}
-#third div{
-    border: 1px solid black;
 }
 #customizable{
     width: 400px;
@@ -127,7 +121,6 @@ body{
 }
 
 #images{
-    border: 1px solid black;
     width: 1100px;
     margin: 0 auto;
 }
@@ -144,7 +137,6 @@ body{
 }
 
 #forth{
-    border: 1px solid black;
     text-align: center;
     width: 1100px;
     margin: 0 auto;
@@ -156,28 +148,29 @@ body{
 
 
 #fifth{
-    border: 1px solid black;
     width: 100%;
+    height: 500px;
     margin-top: 60px;
-    background-color: #154d44;
+    padding-top: 90px;
+    background-image: linear-gradient(to left bottom, #154d44 75%, rgba(153, 240, 91));
 }
 #build{
     border: 1px solid black;
     width: 1100px;
-    margin: 70px auto;
+    margin: 0px auto;
     text-align: center;
-    padding: 30px;
     color: #fff;
 }
 #build h1{
-    font-size: 42px;
-    margin-bottom: 35px;
+    font-size: 45px;
+    margin: 35px 0px;
 }
 #build h4{
     margin-bottom: 35px;
 }
 #build p{
     font-size: 12px;
+    margin: 35px 0px;
 }
 /*email button*/
 #vid{
@@ -186,7 +179,7 @@ body{
     width: 400px;
     padding: 10px;
     margin: 0px auto;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
     background-color: #fff;
 }
 #vid .email{
@@ -196,6 +189,7 @@ body{
 }
 #vid .submit{
     color: #fff;
+    font-weight: bold;
     background-color: black;
     padding: 8px;
     border: 1px solid black;
@@ -204,9 +198,6 @@ body{
 }
 
 
-#sixth, #sixth div{
-    border: 1px solid black;
-}
 .faq{
     width: 1100px;
     margin: 0 auto;
@@ -226,6 +217,7 @@ body{
 /*accordion*/
 .accordion {
     background-color: transparent;
+    border: none;
     cursor: pointer;
     padding: 7px 0px;
     width: 100%;
@@ -267,7 +259,6 @@ body{
   #sitemap {
     width: 1100px;
     margin: 100px auto;
-    border: 1px solid black;
   }
   #sitemap ul{
     text-align: right;
@@ -292,9 +283,6 @@ body{
   /*MEDIA QUERY*/
 
   @media only screen and (max-width:600px){
-    div{
-        border: 1px solid black;
-    }
     .logo{
         display: none;
     }
@@ -303,7 +291,6 @@ body{
         padding: 0px;
         margin: 0 auto;
         text-align: center;
-        border: 1px solid #fff;
     }
     #first .ssshop{
         display: initial;
@@ -389,6 +376,7 @@ body{
     }
     #build h1{
         font-size: 36px;
+        margin: 25px 0px;
     }
     #build h4{
         font-size: 14px;
@@ -449,9 +437,6 @@ body{
   /*MEDIA QUERY*/
 
   @media only screen and (max-width:900px) and (min-width:600px){
-    div{
-        border: 1px solid black;
-    }
     .logo{
         display: none;
     }
@@ -460,7 +445,6 @@ body{
         padding: 0px;
         margin: 0 auto;
         text-align: center;
-        border: 1px solid #fff;
     }
     #first .ssshop{
         display: initial;
@@ -492,6 +476,7 @@ body{
     }
     #div .submit{
         color: #fff;
+        font-weight: bold;
         background-color: black;
         padding: 8px;
         border: 1px solid black;
@@ -578,6 +563,7 @@ body{
     }
     #vid .submit{
         color: #fff;
+        font-weight: bold;
         background-color: black;
         padding: 8px;
         border: 1px solid black;
